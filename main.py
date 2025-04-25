@@ -9,6 +9,7 @@ from constants import BASE_DIR, MAIN_DOC_URL
 from configs import configure_argument_parser
 from outputs import control_output
 
+# Hello, world
 
 def whats_new(session):
     whats_new_url = urljoin(MAIN_DOC_URL, 'whatsnew/')
